@@ -1,0 +1,391 @@
+/* body style */
+body {
+  background-color: gray;
+}
+/* logo style */
+.logo {
+  width: 100%;
+  height: auto;
+}
+/* menu style */
+.menu {
+  background: gold;
+  overflow: hidden;
+  /* bottom: 0.5rem;
+  position: relative; */
+}
+/* menu link style */
+.menu a {
+  display: block;
+  padding: 16px 14px;
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+/* Link hover style */
+.menu a:hover {
+  background: black;
+  color: white;
+}
+/* banner style */
+.banner {
+  width: auto;
+  height: 23rem;
+  background: rgb(5, 1, 8);
+  background: linear-gradient(90deg, black 0%, gold 100%);
+  overflow: hidden;
+}
+/* banner head style */
+.head h1 {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  margin-top: 5rem;
+}
+/* showcase style */
+.showcase {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  bottom: 8rem;
+}
+@media screen and (max-width: 780px) {
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-evenly;
+    bottom: 8rem;
+  }
+}
+/* showcase boxes style */
+.box {
+  height: 18rem;
+  width: 20rem;
+  background-color: white;
+  border-top-right-radius: 2rem;
+}
+/* box heading style */
+.box_head {
+  width: auto;
+  height: 4rem;
+  background-color: black;
+  position: relative;
+  bottom: 1.3rem;
+  border-top-right-radius: 2rem;
+  border-bottom: solid thick gold;
+  overflow: hidden;
+}
+.box_head h2 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* box image style */
+.box_image {
+  position: relative;
+  overflow: hidden;
+  bottom: 1.3rem;
+}
+.b_image {
+  height: 11rem;
+  width: 20rem;
+}
+/* team section  */
+.team {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+/* showcase boxes style */
+.team_box {
+  height: 24rem;
+  width: 20rem;
+  background-color: black;
+  border-top-right-radius: 4rem;
+}
+
+/* box heading style */
+.team_head {
+  width: auto;
+  height: 4rem;
+  background-color: black;
+  position: relative;
+  bottom: 1.3rem;
+  /* border-bottom: solid thick gold; */
+  overflow: hidden;
+}
+.team_head h2 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+.team_box .team_name {
+  background-color: gold;
+  height: 5rem;
+  text-align: center;
+  font-size: 18px;
+  overflow: hidden;
+  position: relative;
+  bottom: 1rem;
+  text-transform: uppercase;
+}
+
+/* box image style */
+.team_image {
+  position: relative;
+  overflow: hidden;
+}
+.t_image {
+  height: 14rem;
+  width: 18rem;
+  padding: 1rem;
+  object-fit: cover;
+  border-top-right-radius: 4rem;
+}
+/* button section */
+.btn {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 8rem;
+  bottom: 1rem;
+}
+.btn button {
+  width: 7rem;
+  height: 3rem;
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: gold;
+}
+/* button hover style */
+.btn button:hover {
+  background-color: gold;
+  color: white;
+}
+/* content style */
+.content {
+  overflow: hidden;
+  position: relative;
+  bottom: 9rem;
+  padding: 2rem;
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: -8rem;
+}
+.content h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+/* testimonial section */
+.testimonal {
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  background: rgb(5, 1, 8);
+  background: linear-gradient(90deg, black 0%, gold 100%);
+  overflow: hidden;
+  padding: 5rem;
+}
+.test_box {
+  width: 20rem;
+  height: 18rem;
+  background-color: black;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+/* test image style */
+.test_image_box {
+  overflow: hidden;
+  position: relative;
+  bottom: 4rem;
+}
+.test_image {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 4.5rem;
+  border: solid goldenrod;
+}
+/* test paragraph style */
+.test_para {
+  position: relative;
+  color: white;
+  padding: 2rem;
+  text-align: justify;
+  font-size: 14px;
+  bottom: 5.5rem;
+}
+.all_banner {
+  width: auto;
+  height: 15rem;
+  background: rgb(5, 1, 8);
+  background: linear-gradient(90deg, black 0%, gold 100%);
+  overflow: hidden;
+}
+/* about page style begin */
+.all_content {
+  background-color: white;
+  overflow: hidden;
+}
+.pages_para p {
+  text-align: justify;
+  padding: 1.5rem;
+  font-size: 18px;
+  line-height: 2rem;
+}
+/* Products style begin*/
+
+.product {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  background-color: white;
+  top: 4rem;
+  margin-bottom: 5rem;
+  height: 100%;
+}
+/* showcase boxes style */
+.product_box {
+  height: 18rem;
+  width: 20rem;
+  background-color: white;
+  border-top-right-radius: 2rem;
+}
+/* box heading style */
+.product_head {
+  width: auto;
+  height: 4rem;
+  background-color: black;
+  position: relative;
+  bottom: 1.3rem;
+  border-top-right-radius: 2rem;
+  border-bottom: solid thick gold;
+  overflow: hidden;
+}
+.product_head h2 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* box image style */
+.product_image {
+  position: relative;
+  overflow: hidden;
+  bottom: 1.3rem;
+}
+.p_image {
+  height: 11rem;
+  width: 20rem;
+}
+/* Product style end */
+/* contact Content section */
+.contact {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+/* contact form */
+.contact_form {
+  background-color: white;
+  height: auto;
+  width: 50%;
+  padding: 2rem;
+}
+/* contact box style */
+.contact_box {
+  text-align: left;
+  width: 70%;
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  margin: 4rem;
+  color: white;
+  border-top: solid thick gold;
+  border-bottom: solid thick gold;
+}
+/* input text area */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: gold;
+  height: 2.5rem;
+  width: 6rem;
+  font-size: 18px;
+  border-radius: 1rem;
+  text-transform: uppercase;
+}
+.contact_form h1 {
+  text-align: center;
+}
+.contact_info h1 {
+  text-align: center;
+}
+/* contact info */
+.contact_info {
+  background-color: white;
+  height: auto;
+  width: 50%;
+  padding: 2rem;
+  overflow: hidden;
+}
+/* contact image section */
+.contact_image .contact_photo {
+  width: 100%;
+  height: 20rem;
+  padding-top: 3rem;
+}
+/* footer  style */
+footer {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  justify-content: space-evenly;
+  border-top: solid thick gold;
+}
+.contact_para p {
+  font-size: 20px;
+  line-height: 30px;
+}
+/* footer area boxes */
+.footer_area {
+  height: 14rem;
+  width: 18rem;
+  color: white;
+  margin: 1rem;
+  padding-top: 3rem;
+}
+.footer_area h3 {
+  text-decoration: underline;
+  color: gold;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* copyrigt style */
+.copyright {
+  background-color: gray;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
